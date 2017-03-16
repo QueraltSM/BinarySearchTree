@@ -24,7 +24,6 @@ public class ContenedorDeEnteros {
         return numElem;
     }
 
-    /*Return true si el elemento está ya. Falso en caso contrario. */
     public boolean buscar(int n) {
         return buscar(raiz, n);
     }
