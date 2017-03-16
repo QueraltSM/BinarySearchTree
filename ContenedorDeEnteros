@@ -1,0 +1,8 @@
+public interface ContenedorDeEnteros {
+     int cardinal();
+     boolean insertar(int n);
+     boolean extraer(int n);
+     boolean buscar(int n);
+     void vaciar();
+     int[]elementos();
+}
